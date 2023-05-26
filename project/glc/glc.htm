@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position:fixed
+width:100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+color: black;
+}
+
+.active {
+  background-color: white;
+ color:black}
+
+
+.car{
+background-color:black;
+color:white;}
+
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+border: 3px solid #4CAF50
+  padding: 5px;
+font-size:150%;
+
+}
+
+.img2 {
+  float: left;
+width:70%;
+height:70%;
+}
+
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+
+
+.redbtn {
+  padding: 14px 20px;
+  background-color: red;
+font-size:30px;
+}
+
+.bluebtn {
+  padding: 14px 20px;
+  background-color: blue;
+font-size:30px;
+}
+.main{
+background-color:#f2f2f2;
+width:100%;
+margin-top; 0px;
+padding:5px;
+opacity :;
+}
+.mainn{
+font-size:50px;
+color:black;}
+
+.vedioo{
+font-size: 150%;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="main">
+<p class="mainn">
+<img src="logo.png" alt="Logo" style="float:left;width:150px;height:150px;">
+CS Cars  
+
+</p>
+
+</div>
+</br>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+<div class="clearfix">
+  <h2>The GLC Coupé</h2>
+<button class="bluebtn" onclick="document.getElementById('myImage').src='GLC.jpg'">Blue color <i class="material-icons";>directions_car</i></button>
+
+
+  <img class="img2" id="myImage" src="GLC.jpg" alt="Workplace" usemap="#workmap"   width="170" height="170">
+<map name="workmap">
+  <area shape="rect" coords="295,145,820,360" alt="Computer" href="file:///C:/Users/Omar%20Atef/OneDrive/Desktop/colors/colors.htm">
+</map>
+
+
+<button class="redbtn" onclick="document.getElementById('myImage').src='glc1.jpeg'">Red color <i class="material-icons";>directions_car</i></button>
+
+
+
+</br>
+</br>
+</br>
+
+ click on the car to see more colors 
+</div>
+
+
+
+
+<h2>spesfications</h2>
+<div class="car">
+
+<table>
+  <tr>
+    <th></th>
+    <th>GLC 200</th>
+    <th>GLC 300 4MATIC</th>
+    <th>GLC 300 4MATIC Coupe</th>
+  </tr>
+  <tr>
+    <td>Arrangement/no. of cylinders</td>
+    <td>14</td>
+    <td>14</td>
+ <td>14</td>
+  </tr>
+  <tr>
+    <td>Transmission - gearshift type</td>
+    <td>Automatic</td>
+    <td>Automatic</td>
+    <td>Automatic</td>
+  </tr>
+  <tr>
+    <td>Total displacement (cc)</td>
+    <td>1991</td>
+    <td>1991</td>
+    <td>1991</td>
+  </tr>
+  <tr>
+    <td>Rated output (hp at rpm)</td>
+    <td>197/5.500</td>
+    <td>258/5.800</td>
+    <td>258/5.800</td>
+  </tr>
+ 
+   <tr>
+    <td>Rated torque (Nm at rpm)</td>
+    <td>320/1.650 – 4000</td>
+    <td>370/1.800-4000</td>
+    <td>370/1.800-4000</td>
+  </tr>
+<tr>
+    <td>Acceleration 0 - 100 km/h (s)</td>
+    <td>7.8</td>
+    <td>6.2</td>
+    <td>6.3</td>
+  </tr>
+<tr>
+    <td>Top Speed (km/h)</td>
+    <td>217</td>
+    <td>240</td>
+    <td>240</td>
+  </tr>
+
+<tr>
+    <td>Fuel consumption (l/100 km)</td>
+    <td>7.7 - 7.1</td>
+    <td>8.1-7.0</td>
+    <td>8.1-7.0</td>
+  </tr>
+
+<tr>
+    <td>Tank capacity (l)</td>
+    <td>66</td>
+    <td>66</td>
+    <td>66</td>
+  </tr>
+
+<tr>
+    <td>Boot capacity (l)</td>
+    <td>550</td>
+    <td>550</td>
+    <td>500</td>
+  </tr>
+
+<tr>
+    <td>Kerb weight (kg)</td>
+    <td>1760</td>
+    <td>1805</td>
+    <td>1825</td>
+  </tr>
+
+
+</table>
+
+</div>
+
+
+<div>
+<p class="vedioo"> this is a vedio for the car design</p>
+<video width="700px" height="420px" style="margin-right:5%;" controls  >
+  <source src="glcc.mp4" type="video/mp4">
+  <source src="glcc.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<img src="glc2.jpeg" alt="car front" width="600" height="420">
+</div>
+<div style="background-color:black;">
+
+<img src="mer.png" alt="car front" width="400" height="420" style="margin-left:10%; "  >
+<iframe src="demo_iframe.htm" style="height:300px;width:420px;margin-left:30%;" title="Iframe Example"></iframe>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
